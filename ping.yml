@@ -1,7 +1,6 @@
 ---
 - name: Check the connection
   hosts: all
-  become: true
   tasks:
     - name: Ping
       ping:
